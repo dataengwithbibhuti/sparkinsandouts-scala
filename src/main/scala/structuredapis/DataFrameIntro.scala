@@ -11,7 +11,6 @@ object DataFrameIntro {
     import spark.implicits._
     val data = Seq("hello", "world").toDF("value")
     data.show()
-
     spark.stop()
   }
 }
