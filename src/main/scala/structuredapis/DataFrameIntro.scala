@@ -9,7 +9,6 @@ object DataFrameIntro {
       .getOrCreate()
 
     import spark.implicits._
-    // Your Spark logic here
     val data = Seq("hello", "world").toDF("value")
     data.show()
 
